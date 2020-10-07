@@ -1,0 +1,22 @@
+{
+  "name": "rtx-scraper",
+  "version": "1.0.0",
+  "description": "notify when desired item is in stock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/nodemon/bin/nodemon.js src/app.js"
+  },
+  "author": "Joonas Aaltonen",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "nodemailer": "^6.4.13",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
