@@ -6,6 +6,8 @@ const NotificationService = require('./services/NotificationService')
 
 let isItInStock = ''
 
+let thisNewVariable = ''
+
 async function run () {
     try {
         const stockInfo = await ScraperService.getStockInfo()
