@@ -31,4 +31,6 @@ async function run () {
     }
 }
 
+let something = "some change"
+
 run()
